@@ -1,0 +1,105 @@
+.cover-wrapper {
+    background-color: #eee;
+    width: 2380px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+
+.front-cover{
+    position: relative;
+    background-color: green !important;
+    width: 480px;
+    object-fit: cover;
+}
+
+.front-cover-inside-right{
+    position: relative;
+    background-color: green !important;
+    width: 460px;
+    object-fit: cover;
+}
+
+.back-cover{
+    position: relative;
+    background-color: green !important;
+    width: 480px;
+    object-fit: cover;
+}
+
+.front-cover-inside-left{
+    position: relative;
+    width:500px;
+}
+
+.back-cover-inside-right{
+    position: relative;    
+    width:460px;
+}
+
+.back-cover-wrapper{
+    display: flex;
+}
+
+.back-cover-wrapper .left{
+    background-color: #CFCFCF;
+    width:220px;
+    position: absolute;
+    height: 100%;
+}
+
+.back-cover-wrapper .right{
+    background-color: #E8E8E8;
+    width:240px;
+    position: absolute;
+    right:0;
+    box-shadow: -10px 0px 10px 1px #949494;
+
+    height: 100%;
+}
+
+
+
+.barrier{
+    position: absolute;
+    right: 0;
+    background-color: #777777 !important;
+    width: 40px;
+    height: 100%;
+    box-shadow: inset -5px -5px 9px rgba(0, 0, 0, 0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+
+}
+
+.overlay-effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cover-effect-right{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #ffffff00), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #ffffff00 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #ffffff00 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #ffffff00 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #ffffff00 95%, #dadada 100%);
+    background-image:linear-gradient(left, #ffffff00 95%, #dadada 100%);
+}
+.cover-effect-left{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #ffffff00), color-stop(1, #cacaca));
+    background-image:-webkit-linear-gradient(right, #ffffff00 95%, #cacaca 100%);
+    background-image:-moz-linear-gradient(right, #ffffff00 95%, #cacaca 100%);
+    background-image:-ms-linear-gradient(right, #ffffff00 95%, #cacaca 100%);
+    background-image:-o-linear-gradient(right, #ffffff00 95%, #cacaca 100%);
+    background-image:linear-gradient(right, #ffffff00 95%, #cacaca 100%);
+}
+
+.front-cover img, .back-cover img, .front-cover-inside-right img{
+    width: 100%;
+}
