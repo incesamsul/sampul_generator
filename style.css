@@ -48,6 +48,10 @@
     height: 100%;
 }
 
+.front-cover-inside-left .content{
+    padding: 100px;   
+}
+
 .back-cover-wrapper .right{
     background-color: #E8E8E8;
     width:240px;

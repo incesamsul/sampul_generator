@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cover-wrapper" id="capturee">
+    <div class="cover-wrapper" id="capture">
         <div class="front-cover">
             <div class="cover-effect-right"></div>
             <div class="cover-effect-left"></div>
             <div class="overlay-effect"></div>
-            <img src="fc.jpeg" alt="">
+            <img src="fc2.jpg" alt="">
         </div>
         <div class="front-cover-inside-left">
             <div class="cover-effect-right"></div>
             <div class="cover-effect-left"></div>
             <div class="barrier"></div>
             <div class="content">
-                here it is
+                <h3>Pernikahan</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis dolor voluptatem libero obcaecati maxime odio maiores ab voluptates doloribus laborum minima quibusdam, hic, laboriosam delectus dignissimos molestias tenetur repudiandae veniam?</p><br><br>
+
+                - NAdvi
             </div>
         </div>
         <div class="back-cover-inside-right">
@@ -35,13 +38,13 @@
             <div class="cover-effect-right"></div>
             <div class="cover-effect-left"></div>
             <div class="overlay-effect"></div>
-            <img src="fc.jpeg" alt="">
+            <img src="fc2.jpg" alt="">
         </div>
         <div class="front-cover-inside-right">
             <div class="cover-effect-right"></div>
             <div class="cover-effect-left"></div>
             <div class="overlay-effect"></div>
-            <img src="fc.jpeg" alt="">
+            <img src="fc2.jpg" alt="">
         </div>
     </div>
     
